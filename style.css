@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+}
+
+#input-busqueda[type=text] {
+    border: 4px solid #9C53B4;
+    border-radius: 30px;
+    outline: none;
+    width: 300px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+#input-busqueda[type=text]:focus {
+    border: 4px solid #DA4A85;
+    border-radius: 30px;
+    outline: none;
+    width: 300px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.personaje-container {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    padding: 18px;
+    margin: 40px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+b{
+    color: #000;
+}
